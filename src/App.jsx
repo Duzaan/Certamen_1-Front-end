@@ -1,9 +1,12 @@
-//Functional component
+import Header from "./layouts/Header"
+import OrcoContainer from "./containers/OrcoContainer"
+
 function App() {
   return (
-    <div>
-      {/* Aquí va tu proyecto */}
-    </div>
+    <>
+      <Header/>
+      <OrcoContainer/>
+    </>
   )
 }
 
